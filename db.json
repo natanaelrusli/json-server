@@ -1,0 +1,6 @@
+{
+  "products": [
+    { "id": 1, "title": "Product 1", "qty": 10, "price": "£1.00"},
+    { "id": 2, "title": "Product 2", "qty": 20, "price": "£2.00"}
+  ]
+}
