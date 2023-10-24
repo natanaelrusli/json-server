@@ -1,0 +1,1224 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@mail.com",
+      "fullname": "Admin",
+      "password": "admin",
+      "phone": "+628151973243",
+      "photo": "http://res.cloudinary.com/dsngblge5/image/upload/v1697190246/zdm3hlwkmcihiaeaf9gx.jpg",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "asep@mail.com",
+      "password": "password",
+      "fullname": "Agus Budiantoro",
+      "phone": "+628123456789",
+      "photo": "http://res.cloudinary.com/dsngblge5/image/upload/v1697296665/ai4agio4m7ho8589sfth.jpg",
+      "referral": "",
+      "referralSelfId": "referral-1",
+      "walletId": "wallet-1",
+      "addressId": "address-1",
+      "shippingId": "shipping-1",
+      "gameCount": 0,
+      "role": "user"
+    },
+    {
+      "email": "usertest@gmail.com",
+      "password": "password",
+      "fullname": "User Test",
+      "phone": "08151874567",
+      "photo": "",
+      "referral": "",
+      "referralSelfId": "referral-2",
+      "walletId": "wallet-2",
+      "addressId": "address-2",
+      "shippingId": "shipping-2",
+      "role": "user",
+      "gameCount": 0,
+      "id": 3
+    },
+    {
+      "id": 12667,
+      "email": "referraltest@mail.com",
+      "password": "password",
+      "fullname": "Referral Test",
+      "phone": "+621234567890",
+      "photo": "",
+      "referral": "",
+      "referralSelfId": "referral-89475",
+      "walletId": "wallet-89475",
+      "addressId": "address-89475",
+      "shippingId": "shipping-89475",
+      "gameCount": 0,
+      "role": "user"
+    },
+    {
+      "id": 2575,
+      "email": "wallettest@mail.com",
+      "password": "password",
+      "fullname": "Wallet Test",
+      "phone": "+621234567890",
+      "photo": "",
+      "referral": "",
+      "referralSelfId": "referral-91486",
+      "walletId": "wallet-91486",
+      "addressId": "address-91486",
+      "shippingId": "shipping-91486",
+      "gameCount": 0,
+      "role": "user"
+    },
+    {
+      "id": 12796,
+      "email": "addresstest@mail.com",
+      "password": "password",
+      "fullname": "Address Test",
+      "phone": "+621234567890",
+      "photo": "",
+      "referral": "",
+      "referralSelfId": "referral-39271",
+      "walletId": "wallet-39271",
+      "addressId": "address-39271",
+      "shippingId": "shipping-39271",
+      "gameCount": 0,
+      "role": "user"
+    },
+    {
+      "id": 20474,
+      "email": "shippingtest@mail.com",
+      "password": "password",
+      "fullname": "Shipping Test",
+      "phone": "+621234567890",
+      "photo": "",
+      "referral": "",
+      "referralSelfId": "referral-43773",
+      "walletId": "wallet-43773",
+      "addressId": "address-43773",
+      "shippingId": "shipping-43773",
+      "gameCount": 0,
+      "role": "user"
+    }
+  ],
+  "referralCodes": [
+    {
+      "id": "referral-1",
+      "userId": 2,
+      "referral": "dwj5ca"
+    },
+    {
+      "id": "referral-2",
+      "userId": 3,
+      "referral": "jb6fbp"
+    },
+    {
+      "id": "referral-89475",
+      "userId": 12667,
+      "referral": "rumqs0"
+    },
+    {
+      "id": "referral-91486",
+      "userId": 2575,
+      "referral": "24e4n5"
+    },
+    {
+      "id": "referral-39271",
+      "userId": 12796,
+      "referral": "28z481"
+    },
+    {
+      "id": "referral-43773",
+      "userId": 20474,
+      "referral": "d2nweg"
+    }
+  ],
+  "userWallet": [
+    {
+      "id": "wallet-1",
+      "userId": 2,
+      "balance": 350000,
+      "history": [
+        {
+          "id": 1,
+          "date": "Mon Oct 16 2023 05:32:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 2,
+          "date": "Tue Oct 17 2023 15:21:27 GMT+0700 (Western Indonesia Time)",
+          "amount": 100000,
+          "selfReferral": false
+        },
+        {
+          "id": 3,
+          "date": "Thu Oct 19 2023 14:51:46 GMT+0700 (Western Indonesia Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 4,
+          "date": "Fri Oct 20 2023 10:11:46 GMT+0700 (Western Indonesia Time)",
+          "amount": 100000,
+          "selfReferral": true
+        },
+        {
+          "id": 5,
+          "date": "Fri Oct 20 2023 11:16:50 GMT+0700 (Western Indonesia Time)",
+          "amount": 50000,
+          "selfReferral": true
+        }
+      ]
+    },
+    {
+      "id": "wallet-2",
+      "userId": 3,
+      "balance": 100000,
+      "history": [
+        {
+          "id": 1,
+          "date": "Mon Oct 16 2023 05:32:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 2,
+          "date": "Mon Oct 16 2023 05:52:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        }
+      ]
+    },
+    {
+      "id": "wallet-89475",
+      "userId": 12667,
+      "balance": 1350000,
+      "history": [
+        {
+          "id": 1,
+          "date": "Mon Oct 16 2023 05:32:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 2,
+          "date": "Mon Oct 16 2023 05:52:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 3,
+          "date": "Mon Oct 16 2023 05:56:41 GMT+0000 (Coordinated Universal Time)",
+          "amount": 50000,
+          "selfReferral": false
+        },
+        {
+          "id": 4,
+          "date": "Mon Oct 16 2023 13:37:29 GMT+0700 (Western Indonesia Time)",
+          "amount": 100000,
+          "selfReferral": false
+        },
+        {
+          "id": 5,
+          "date": "Mon Oct 16 2023 13:38:10 GMT+0700 (Western Indonesia Time)",
+          "amount": 100000,
+          "selfReferral": false
+        },
+        {
+          "id": 6,
+          "date": "Mon Oct 16 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+          "amount": 100000,
+          "selfReferral": false
+        }
+      ]
+    },
+    {
+      "id": "wallet-91486",
+      "userId": 2575,
+      "balance": 0,
+      "history": []
+    },
+    {
+      "id": "wallet-39271",
+      "userId": 12796,
+      "balance": 0,
+      "history": []
+    },
+    {
+      "id": "wallet-43773",
+      "userId": 20474,
+      "balance": 0,
+      "history": []
+    }
+  ],
+  "userAddress": [
+    {
+      "id": "address-1",
+      "userId": 2,
+      "addressList": [
+        {
+          "id": 1,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 1
+        },
+        {
+          "id": 2,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 2
+        },
+        {
+          "id": 3,
+          "address": "This is a toast test",
+          "province": "Bali",
+          "city": "Jembrana",
+          "zip": "80519",
+          "adminId": 3
+        },
+        {
+          "id": 4,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 4
+        },
+        {
+          "id": 5,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 5
+        },
+        {
+          "id": 6,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 6
+        },
+        {
+          "id": 7,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 7
+        },
+        {
+          "id": 8,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 8
+        },
+        {
+          "id": 9,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 9
+        },
+        {
+          "id": 10,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 10
+        },
+        {
+          "id": 11,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 11
+        },
+        {
+          "id": 12,
+          "address": "This is my address test",
+          "province": "Jambi",
+          "city": "Kerinci",
+          "zip": "37319",
+          "adminId": 12
+        },
+        {
+          "id": 14,
+          "address": "This is my address test third update success!",
+          "province": "Lampung",
+          "city": "Metro",
+          "zip": "34516",
+          "adminId": 14
+        },
+        {
+          "id": 15,
+          "address": "Admin Address Test Success",
+          "city": "Sleman",
+          "province": "DI Yogyakarta",
+          "zip": "55611",
+          "adminId": 20
+        }
+      ]
+    },
+    {
+      "id": "address-2",
+      "userId": 3,
+      "addressList": [
+        {
+          "id": 1,
+          "address": "This is my new address test",
+          "province": "Bengkulu",
+          "city": "Bengkulu Tengah",
+          "zip": "38319",
+          "adminId": 15
+        },
+        {
+          "id": 2,
+          "address": "Banten address",
+          "province": "Banten",
+          "city": "Lebak",
+          "zip": "42111",
+          "adminId": 16
+        }
+      ]
+    },
+    {
+      "id": "address-89475",
+      "userId": 12667,
+      "addressList": []
+    },
+    {
+      "id": "address-91486",
+      "userId": 2575,
+      "addressList": [
+        {
+          "id": 1,
+          "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+          "city": "Jakarta Selatan",
+          "province": "DKI Jakarta",
+          "zip": "12230",
+          "adminId": 17
+        }
+      ]
+    },
+    {
+      "id": "address-39271",
+      "userId": 12796,
+      "addressList": [
+        {
+          "id": 1,
+          "address": "Address-Test",
+          "city": "Gunung Kidul",
+          "province": "DI Yogyakarta",
+          "zip": "55812",
+          "adminId": 18
+        }
+      ]
+    },
+    {
+      "id": "address-43773",
+      "userId": 20474,
+      "addressList": [
+        {
+          "id": 1,
+          "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+          "city": "Jakarta Selatan",
+          "province": "DKI Jakarta",
+          "zip": "12230",
+          "adminId": 19
+        }
+      ]
+    }
+  ],
+  "userShipping": [
+    {
+      "id": "shipping-1",
+      "userId": 2,
+      "shippingList": [
+        {
+          "id": 1,
+          "adminId": 1,
+          "length": "100",
+          "width": "200",
+          "height": "300",
+          "weight": "400",
+          "start": {
+            "id": 1,
+            "address": "This is my address test",
+            "province": "Jambi",
+            "city": "Kerinci",
+            "zip": "37319"
+          },
+          "destAddress": "Address-Test",
+          "destCity": "Bengkulu Utara",
+          "destProvince": "Bengkulu",
+          "destZip": "38519",
+          "category": "Personal Items",
+          "description": "Test",
+          "date": "Mon Oct 17 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": true,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 2,
+          "adminId": 2,
+          "length": "20",
+          "width": "30",
+          "height": "40",
+          "weight": "50",
+          "start": {
+            "id": 1,
+            "address": "This is my address test",
+            "province": "Jambi",
+            "city": "Kerinci",
+            "zip": "37319"
+          },
+          "destAddress": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+          "destCity": "Bengkulu Tengah",
+          "destProvince": "Bengkulu",
+          "destZip": "38619",
+          "category": "Medical Supplies",
+          "description": "Drugs",
+          "date": "Mon Oct 18 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": false,
+          "twoDay": true,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 3,
+          "adminId": 3,
+          "length": "50",
+          "width": "20",
+          "height": "30",
+          "weight": "40",
+          "start": {
+            "id": 3,
+            "address": "This is a toast test",
+            "province": "Bali",
+            "city": "Jembrana",
+            "zip": "80519"
+          },
+          "destAddress": "Jln Kuningan Persada Kav. 4, Setiabudi ",
+          "destCity": "Jakarta Pusat",
+          "destProvince": "DKI Jakarta",
+          "destZip": "12230",
+          "category": "Personal Items",
+          "description": "",
+          "date": "Thu Oct 19 2023 12:41:08 GMT+0700 (Western Indonesia Time)",
+          "insurance": false,
+          "sameDay": false,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 4,
+          "adminId": 4,
+          "length": "30",
+          "width": "20",
+          "height": "10",
+          "weight": "10",
+          "start": {
+            "id": 14,
+            "address": "This is my address test third update success!",
+            "province": "Lampung",
+            "city": "Metro",
+            "zip": "34516"
+          },
+          "destAddress": "Jalan Veteran, no. 17",
+          "destCity": "Jakarta Pusat",
+          "destProvince": "DKI Jakarta",
+          "destZip": "13330",
+          "category": "Food",
+          "description": "",
+          "date": "Thu Oct 19 2023 12:42:27 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": true,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 5,
+          "adminId": 5,
+          "length": "20",
+          "width": "30",
+          "height": "40",
+          "weight": "10",
+          "start": {
+            "id": 5,
+            "address": "This is my address test",
+            "province": "Jambi",
+            "city": "Kerinci",
+            "zip": "37319"
+          },
+          "destAddress": "Address-Test",
+          "destCity": "Boyolali",
+          "destProvince": "Jawa Tengah",
+          "destZip": "57312",
+          "category": "Others",
+          "description": "Bomb",
+          "date": "Thu Oct 19 2023 17:07:26 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": true,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 6,
+          "adminId": 6,
+          "length": "20",
+          "width": "30",
+          "height": "40",
+          "weight": "10",
+          "start": {
+            "id": 6,
+            "address": "This is my address test",
+            "province": "Jambi",
+            "city": "Kerinci",
+            "zip": "37319"
+          },
+          "destAddress": "Phone shipping test",
+          "destCity": "Bogor",
+          "destProvince": "Jawa Barat",
+          "destZip": "16119",
+          "category": "Personal Items",
+          "description": "Human kidneys",
+          "date": "Fri Oct 20 2023 16:59:24 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": false,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 7,
+          "adminId": 8,
+          "length": "15",
+          "width": "10",
+          "height": "10",
+          "weight": "10",
+          "start": {
+            "id": 15,
+            "address": "Admin Address Test Success",
+            "city": "Sleman",
+            "province": "DI Yogyakarta",
+            "zip": "55611",
+            "adminId": 20
+          },
+          "destAddress": "Admin Address Test",
+          "destCity": "Kulon Progo",
+          "destProvince": "DI Yogyakarta",
+          "destZip": "55611",
+          "category": "Personal Items",
+          "description": "",
+          "date": "Sun Oct 22 2023 18:35:26 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": false,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 8,
+          "adminId": 9,
+          "length": "10",
+          "width": "10",
+          "height": "10",
+          "weight": "10",
+          "start": {
+            "id": 1,
+            "address": "This is my address test",
+            "province": "Jambi",
+            "city": "Kerinci",
+            "zip": "37319",
+            "adminId": 1
+          },
+          "destAddress": "Admin Address Test",
+          "destCity": "Badung",
+          "destProvince": "Bali",
+          "destZip": "80351",
+          "category": "Personal Items",
+          "description": "",
+          "date": "Mon Oct 23 2023 16:39:54 GMT+0700 (Western Indonesia Time)",
+          "insurance": false,
+          "sameDay": false,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        },
+        {
+          "id": 9,
+          "adminId": 10,
+          "length": "10",
+          "width": "10",
+          "height": "10",
+          "weight": "10",
+          "start": {
+            "id": 3,
+            "address": "This is a toast test",
+            "province": "Bali",
+            "city": "Jembrana",
+            "zip": "80519",
+            "adminId": 3
+          },
+          "destAddress": "Hooks refactor test",
+          "destCity": "Blitar",
+          "destProvince": "Jawa Timur",
+          "destZip": "66124",
+          "category": "Food",
+          "description": "",
+          "date": "Mon Oct 23 2023 21:16:43 GMT+0700 (Western Indonesia Time)",
+          "insurance": false,
+          "sameDay": false,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        }
+      ]
+    },
+    {
+      "id": "shipping-2",
+      "userId": 3,
+      "shippingList": []
+    },
+    {
+      "id": "shipping-89475",
+      "userId": 12667,
+      "shippingList": []
+    },
+    {
+      "id": "shipping-91486",
+      "userId": 2575,
+      "shippingList": []
+    },
+    {
+      "id": "shipping-39271",
+      "userId": 12796,
+      "shippingList": []
+    },
+    {
+      "id": "shipping-43773",
+      "userId": 20474,
+      "shippingList": [
+        {
+          "id": 1,
+          "adminId": 7,
+          "length": "100",
+          "width": "200",
+          "height": "300",
+          "weight": "400",
+          "start": {
+            "id": 1,
+            "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+            "city": "Jakarta Selatan",
+            "province": "DKI Jakarta",
+            "zip": "12230"
+          },
+          "destAddress": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+          "destCity": "Jakarta Pusat",
+          "destProvince": "DKI Jakarta",
+          "destZip": "10540",
+          "category": "Others",
+          "description": "Bomb",
+          "date": "Mon Oct 19 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+          "insurance": true,
+          "sameDay": true,
+          "twoDay": false,
+          "alreadyPaid": false,
+          "status": ""
+        }
+      ]
+    }
+  ],
+  "userVouchers": [
+    {
+      "id": 1,
+      "code": "20-xab-200000",
+      "description": "20% discount if total is above Rp. 200.000,00",
+      "expirationDate": "Wed Dec 31 2025 23:59:00 GMT+0700 (Western Indonesia Time)",
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "code": "10-xab-150000",
+      "description": "10% discount if total is above Rp. 150.000,00",
+      "expirationDate": "Sat Oct 19 2024 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "code": "100-shp-250000",
+      "description": "Free shipping if total is above Rp. 250.000,00",
+      "expirationDate": "Sat Dec 30 2023 13:43:00 GMT+0700 (Western Indonesia Time)",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "code": "10-xab-100000",
+      "description": "10% discount if total is above Rp. 100.000,00",
+      "expirationDate": "Mon Mar 25 2024 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "quantity": 4
+    },
+    {
+      "id": 5,
+      "code": "30-shp-150000",
+      "description": "30% shipping discount if total is above Rp. 150.000,00",
+      "expirationDate": "Sat May 17 2025 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "quantity": 3
+    },
+    {
+      "id": 6,
+      "code": "15-xab-150000",
+      "description": "15% discount if total is above Rp. 150.000,00",
+      "expirationDate": "Wed Jan 1 2025 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "quantity": 2
+    }
+  ],
+  "adminEarnings": [],
+  "adminAddress": [
+    {
+      "id": 1,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "address": "This is a toast test",
+      "province": "Bali",
+      "city": "Jembrana",
+      "zip": "80519"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "address": "This is my address test",
+      "province": "Jambi",
+      "city": "Kerinci",
+      "zip": "37319"
+    },
+    {
+      "id": 14,
+      "userId": 2,
+      "address": "This is my address test third update success!",
+      "province": "Lampung",
+      "city": "Metro",
+      "zip": "34516"
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "address": "This is my new address test",
+      "province": "Bengkulu",
+      "city": "Bengkulu Tengah",
+      "zip": "38319"
+    },
+    {
+      "id": 16,
+      "userId": 3,
+      "address": "Banten address",
+      "province": "Banten",
+      "city": "Lebak",
+      "zip": "42111"
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+      "city": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "zip": "12230"
+    },
+    {
+      "id": 18,
+      "userId": 12796,
+      "address": "Address-Test",
+      "city": "Gunung Kidul",
+      "province": "DI Yogyakarta",
+      "zip": "55812"
+    },
+    {
+      "id": 19,
+      "userId": 20474,
+      "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+      "city": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "zip": "12230"
+    },
+    {
+      "id": 20,
+      "userId": 2,
+      "address": "Admin Address Test Success",
+      "province": "DI Yogyakarta",
+      "city": "Sleman",
+      "zip": "55611"
+    }
+  ],
+  "adminShipping": [
+    {
+      "id": 1,
+      "userId": 2,
+      "length": "100",
+      "width": "200",
+      "height": "300",
+      "weight": "400",
+      "start": {
+        "id": 1,
+        "address": "This is my address test",
+        "province": "Jambi",
+        "city": "Kerinci",
+        "zip": "37319"
+      },
+      "destAddress": "Address-Test",
+      "destCity": "Bengkulu Utara",
+      "destProvince": "Bengkulu",
+      "destZip": "38519",
+      "category": "Personal Items",
+      "description": "Test",
+      "date": "Mon Oct 17 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": true,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "length": "20",
+      "width": "30",
+      "height": "40",
+      "weight": "50",
+      "start": {
+        "id": 1,
+        "address": "This is my address test",
+        "province": "Jambi",
+        "city": "Kerinci",
+        "zip": "37319"
+      },
+      "destAddress": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+      "destCity": "Bengkulu Tengah",
+      "destProvince": "Bengkulu",
+      "destZip": "38619",
+      "category": "Medical Supplies",
+      "description": "Drugs",
+      "date": "Mon Oct 18 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": false,
+      "twoDay": true,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "length": "50",
+      "width": "20",
+      "height": "30",
+      "weight": "40",
+      "start": {
+        "id": 3,
+        "address": "This is a toast test",
+        "province": "Bali",
+        "city": "Jembrana",
+        "zip": "80519"
+      },
+      "destAddress": "Jln Kuningan Persada Kav. 4, Setiabudi ",
+      "destCity": "Jakarta Pusat",
+      "destProvince": "DKI Jakarta",
+      "destZip": "12230",
+      "category": "Personal Items",
+      "description": "",
+      "date": "Thu Oct 19 2023 12:41:08 GMT+0700 (Western Indonesia Time)",
+      "insurance": false,
+      "sameDay": false,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "length": "30",
+      "width": "20",
+      "height": "10",
+      "weight": "10",
+      "start": {
+        "id": 14,
+        "address": "This is my address test third update success!",
+        "province": "Lampung",
+        "city": "Metro",
+        "zip": "34516"
+      },
+      "destAddress": "Jalan Veteran, no. 17",
+      "destCity": "Jakarta Pusat",
+      "destProvince": "DKI Jakarta",
+      "destZip": "13330",
+      "category": "Food",
+      "description": "",
+      "date": "Thu Oct 19 2023 12:42:27 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": true,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "length": "20",
+      "width": "30",
+      "height": "40",
+      "weight": "10",
+      "start": {
+        "id": 5,
+        "address": "This is my address test",
+        "province": "Jambi",
+        "city": "Kerinci",
+        "zip": "37319"
+      },
+      "destAddress": "Address-Test",
+      "destCity": "Boyolali",
+      "destProvince": "Jawa Tengah",
+      "destZip": "57312",
+      "category": "Others",
+      "description": "Bomb",
+      "date": "Thu Oct 19 2023 17:07:26 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": true,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "length": "20",
+      "width": "30",
+      "height": "40",
+      "weight": "10",
+      "start": {
+        "id": 6,
+        "address": "This is my address test",
+        "province": "Jambi",
+        "city": "Kerinci",
+        "zip": "37319"
+      },
+      "destAddress": "Phone shipping test",
+      "destCity": "Bogor",
+      "destProvince": "Jawa Barat",
+      "destZip": "16119",
+      "category": "Personal Items",
+      "description": "Human kidneys",
+      "date": "Fri Oct 20 2023 16:59:24 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": false,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 7,
+      "userId": 20474,
+      "length": "100",
+      "width": "200",
+      "height": "300",
+      "weight": "400",
+      "start": {
+        "id": 1,
+        "address": "Jalan Mega Kuningan Barat III Lot 10.1-6, RT.3/RW.3",
+        "city": "Jakarta Selatan",
+        "province": "DKI Jakarta",
+        "zip": "12230"
+      },
+      "destAddress": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+      "destCity": "Jakarta Pusat",
+      "destProvince": "DKI Jakarta",
+      "destZip": "10540",
+      "category": "Others",
+      "description": "Bomb",
+      "date": "Mon Oct 19 2023 13:43:55 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": true,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": ""
+    },
+    {
+      "id": 8,
+      "length": "15",
+      "width": "10",
+      "height": "10",
+      "weight": "10",
+      "start": {
+        "id": 15,
+        "address": "Admin Address Test Success",
+        "city": "Sleman",
+        "province": "DI Yogyakarta",
+        "zip": "55611",
+        "adminId": 20
+      },
+      "destAddress": "Admin Address Test",
+      "destCity": "Kulon Progo",
+      "destProvince": "DI Yogyakarta",
+      "destZip": "55611",
+      "category": "Personal Items",
+      "description": "",
+      "date": "Sun Oct 22 2023 18:35:26 GMT+0700 (Western Indonesia Time)",
+      "insurance": true,
+      "sameDay": false,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "userId": 2,
+      "status": ""
+    },
+    {
+      "id": 9,
+      "length": "10",
+      "width": "10",
+      "height": "10",
+      "weight": "10",
+      "start": {
+        "id": 1,
+        "address": "This is my address test",
+        "province": "Jambi",
+        "city": "Kerinci",
+        "zip": "37319",
+        "adminId": 1
+      },
+      "destAddress": "Admin Address Test",
+      "destCity": "Badung",
+      "destProvince": "Bali",
+      "destZip": "80351",
+      "category": "Personal Items",
+      "description": "",
+      "date": "Mon Oct 23 2023 16:39:54 GMT+0700 (Western Indonesia Time)",
+      "insurance": false,
+      "sameDay": false,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": "",
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "length": "10",
+      "width": "10",
+      "height": "10",
+      "weight": "10",
+      "start": {
+        "id": 3,
+        "address": "This is a toast test",
+        "province": "Bali",
+        "city": "Jembrana",
+        "zip": "80519",
+        "adminId": 3
+      },
+      "destAddress": "Hooks refactor test",
+      "destCity": "Blitar",
+      "destProvince": "Jawa Timur",
+      "destZip": "66124",
+      "category": "Food",
+      "description": "",
+      "date": "Mon Oct 23 2023 21:16:43 GMT+0700 (Western Indonesia Time)",
+      "insurance": false,
+      "sameDay": false,
+      "twoDay": false,
+      "alreadyPaid": false,
+      "status": "",
+      "userId": 2
+    }
+  ]
+}
